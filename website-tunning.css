@@ -1,0 +1,52 @@
+
+body{
+    background-color: lightblue;
+    color: darkblue;
+}
+
+h1{
+    color: red;
+    font-size: 48px;
+    text-align: center;
+}
+
+h2{
+    color: darkgreen;
+    font-size: 36px
+}
+
+p{
+background-color: aliceblue;
+font-family: georgia, serif;
+font-size: 18px;
+padding: 10px;
+margin: 20px;
+border: solid 3px red;
+}
+.box{
+    background-color: lightgrey;
+    width: 600px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 50px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+    .column {
+    flex: 1;
+    padding: 10px;
+  }
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }

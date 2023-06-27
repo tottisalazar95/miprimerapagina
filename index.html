@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type= "text/css" href="website-tunning.css"/>
+        <title>Mi Primer Website!</title>
+    </head>
+<body>
+    <div class="container">
+<h1>Bienvenidos a mi primer Website!</h1>
+<div class="row">
+<div class="column">
+<h2>Mi nombre es: Daniel Salazar</h2>
+<h2>Tengo: 28 años de edad</h2>
+<p>Soy Daniel Salazar, ¡y esta es mi primera página web!</p>
+</div>
+<div class="column">
+<p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+<p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.</p>
+</div>
+</div>
+</div>
+<form>
+    <!-- Campo para nombre -->
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre">
+        <br>
+        <br>
+    <!-- Campo para correo electronico -->
+    <label for="email">Correo electronico:</label>
+    <input type="email" id="email" name="email">
+       <br>
+       <br>
+
+    <!-- Campo para mensaje -->
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje"></textarea>
+        <br>
+        <br>
+
+    <!-- Campo para seleccion de país -->
+    <label for="pais">País:</label>
+    <select id="pais" name="pais">
+        <option value="argentina">Argentina</option>
+        <option value="chile">Chile</option>
+        <option value="mexico">Mexico</option>
+        <option value="peru">Peru</option>
+        <option value="venezuela">Venezuela</option>
+        <option value="colombia">Colombia</option>
+        <option value="panama">Panama</option>
+    </select>
+    <br>
+    <br>
+
+    <form id="myForm">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Enviar</button>
+      </form>
+<center><button onclick="showAlert()">¡Haz click en mi!</button></center>
+<script src="script.js"></script>
+</body>
+</html>
